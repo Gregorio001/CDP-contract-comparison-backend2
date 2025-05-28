@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+python-dotenv
+langchain
+langchain-openai
+# Per pgvector con langchain (assicurati che pgvector sia installato in PostgreSQL)
+langchain-community 
+psycopg2-binary
+tiktoken
+# Per parsing documenti
+python-docx
+PyMuPDF # fitz
+numpy
+# difflib è parte della libreria standard Python
