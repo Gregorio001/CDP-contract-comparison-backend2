@@ -1,1 +1,32 @@
+# Ambienti virtuali
+venv/
+.env/
+chroma-env/
+__pycache__/
+*.pyc
+
+# Database locali
+*.sqlite3
+cdb_storage/
+
+# File di configurazione sensibili
 .env
+
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+
+# Backup/Swap
+*.swp
+*.swo
+
+# VSCode config
+.vscode/
+
+# Pytest o coverage
+.cache/
+.coverage
+htmlcov/
